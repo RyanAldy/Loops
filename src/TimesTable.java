@@ -17,6 +17,7 @@ public class TimesTable {
 	
 	public void AllTables (int firstTab, int LastTab) {
 
+		// If bit is wrong - rest is correct
 		if (LastTab > firstTab) {
 
 			while (firstTab <= LastTab) {
